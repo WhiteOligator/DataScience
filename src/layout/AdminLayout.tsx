@@ -3,11 +3,13 @@ import { Header } from './Header'
 import { SideBar } from './SideBar/SideBar'
 
 const Layout = styled.div`
+  background-color: #171825;
   width: 100%;
   display: grid;
   grid-template-areas:
     'header header'
     'sidebar content';
+  grid-gap: 15px;
   grid-template-columns: 180px 1fr;
 `
 const Content = styled.div`

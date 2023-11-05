@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 import { sideBarListOne, sideBarListThree, sideBarListTwo } from './SideBarNavigation'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Container = styled.div`
   grid-area: sidebar;
-  height: calc(93vh - 42px);
+  height: calc(93vh - 57px);
   width: 100%;
   background-color: #24263a;
   margin: 0;
